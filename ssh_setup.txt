@@ -1,0 +1,17 @@
+$ ssh-keygen -t rsa -b 4096 -C "gauravasokkumar10@gmail.com"
+
+Enter Nmae of the keys Example "testkey"
+
+$ dir
+testkey         (private key)
+testkey.pub     (Public key)
+
+$ cat testkey.pub
+
+Copy the public key
+Open git hub website
+go to setting (top right)
+click on "SSH and GPG keys"
+add new ssh key
+give a title like "testkey"
+Past the copied public key
